@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.input_data_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.input_data_table th, .input_data_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.input_data_table th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.input_data_table td {
+    text-align: left;
+}
+
+
+.input_data_table tr:nth-child(odd) {
+    background-color: white;
+}
+
+.input_data_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.input_data_table tr:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+.input_text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.input_dropdown {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.remove_button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.input_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.input_button:hover {
+    background-color: #45a049;
+}
+
+.input_button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
